@@ -1,0 +1,125 @@
+.next-section{
+    scroll-behavior: smooth;
+    background-color:rgb(46,46,46);
+    position: relative;
+    z-index: 1;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    @media(min-width:768px)
+    {
+        width:100vw;
+        height:100vh;
+    }
+    @media(max-width:768px)
+    {
+        /* margin-top:100px; */
+    }
+}
+.next-head{
+    width:28%;
+    text-align: center;
+    margin-right:0;
+    font-weight: 500;
+}
+.help{
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.line1{
+    height:2px;
+    width:15%;
+    background-color: #78716c;
+}
+.line2{
+    height:2px;
+    width: 100%;
+    background-color: #78716c;
+}
+.content-about{
+    margin-top:0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    @media(max-width:768px)
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+.hotel-image{
+    width:50%;
+    border-radius:25px;
+}
+.img-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media(max-width:768px)
+    {
+        margin-top:-100px;
+        height: 299px;
+    }
+}
+.cont-text{
+    width:90%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:left;
+    @media(max-width:768px)
+    {
+        width:100%;
+        align-items: center;
+        text-align:center;
+    }
+}
+.next-head{
+    font-weight:300;
+    color:#78716c;
+    font-size:3rem;
+    @media(max-width:768px)
+    {
+        font-size:1rem;
+    }
+}
+.con-heading{
+    margin:0;
+    font-size:2.5rem;
+    @media(max-width:768px)
+    {
+        font-size:0.9rem;
+    }
+}
+.con-txt1{
+    margin:0;
+    font-size:1.2rem;
+    color:#78716c;
+    @media(max-width:768px)
+    {
+        font-size:0.8rem;
+    }
+}
+.con-txt2{
+    margin:0;
+    font-size:1.2rem;
+    color:#a586ff;
+    @media(max-width:768px)
+    {
+        font-size:0.8rem;
+    }
+}
+.number{
+    margin:0;
+    font-size:1.2rem;
+    color:#a586ff;
+}

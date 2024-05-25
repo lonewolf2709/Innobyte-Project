@@ -1,0 +1,47 @@
+.room-main{
+    background-color:rgb(46, 46, 46);
+    @media(min-width:768px)
+    {
+        width:100vw;
+        height:100vh;
+    }
+}
+.line3{
+    height:2px;
+    width:100%;
+    background-color: #78716c;
+}
+.line4{
+    height:2px;
+    width: 15%;
+    background-color: #78716c;
+}
+.next-room-head{
+    font-weight:500;
+    color:#78716c;
+    font-size:3rem;
+    @media(max-width:768px)
+    {
+        font-size:1.2rem;
+    }
+}
+.help2{
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+}
+.room-card{
+    text-align: center;
+    width:100%;
+    padding:40px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:40px;
+    @media(max-width:768px)
+    {
+        flex-direction:column;
+    }
+}

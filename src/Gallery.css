@@ -1,0 +1,78 @@
+.g-outer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Creates 4 equal columns */
+    grid-template-rows: repeat(3, 1fr);  /* Creates 3 equal rows of 100px height each */
+    gap: 10px;
+    @media(min-width:768px)
+    {
+        width:100vw;
+        height:100vh;
+    }
+}
+.item1 {
+    grid-column: span 1; /* Spans 3 columns */
+    grid-row: span 2; /* Spans 2 rows */
+    background-color: lightcoral;
+}
+.item2{
+    grid-column: span 2; /* Spans 3 columns */
+    grid-row: span 1; /* Spans 2 rows */
+    background-color: rgb(18, 0, 220);
+}
+.item3{
+    grid-column: span 1; /* Spans 3 columns */
+    grid-row: span 1; /* Spans 2 rows */
+    background-color: rgb(42, 0, 0);
+}
+.cara{
+    padding:30px;
+    width:95vw;
+    height:100vh;
+    color:whitesmoke;
+}
+.img-div{
+    border-radius:10px;
+    width:100%;
+    height:600px;
+}
+.g-img{
+    border-radius:10px;
+    border: 2px white solid;
+    width:100%;
+    height:100%;
+    z-index:5;
+}
+.g-outer{
+    display: flex;
+    flex-direction: column;
+}
+.Gallery-head{
+    margin:0;
+    @media(max-width:768px)
+    {
+        font-size:1.5rem;
+    }
+}
+.help{
+    margin-top: 30px;;
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight:500;
+    color:#78716c;
+    font-size:3rem;
+}
+.line8{
+    height:2px;
+    width:100%;
+    background-color: #78716c;
+}
+.line9{
+    height:2px;
+    width: 100%;
+    background-color: #78716c;
+}

@@ -1,0 +1,50 @@
+.card{
+    background-color:#6bc8ed; 
+    box-shadow: 0 4px 8px rgba(246, 246, 246, 0.1);
+    text-align: left;
+    border-radius: 25px;
+    color:white;
+    width:400px;
+    @media(max-width:768px)
+    {
+        width:300px;
+    }
+}
+.card-img{
+    width:100%;
+    border-radius: 25px 25px 0 0;
+}
+.card-content{
+    margin:20px;
+    padding-bottom:20px;
+}
+.card-head{
+    margin:0;
+    font-size:1.2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    @media(max-width:768px)
+    {
+        font-size:0.9rem;
+    }
+}
+.card-con{
+    margin:0;
+    font-size:1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    @media(max-width:768px)
+    {
+        font-size:0.7rem;
+    }
+}
+.card-price{
+    margin:0;
+}
+.room-button{
+    margin-top:20px;
+    font-family:"Poppins";
+    font-weight:600;
+}
