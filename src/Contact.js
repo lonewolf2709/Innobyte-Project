@@ -3,7 +3,7 @@ import "./Contact.css"
 function Contact()
 {
    var x=window.innerWidth;
-    return <div className="Contact">
+    return <div id="contact" className="Contact">
     {x>768&&
        <div className="contact-2">
        <p className="left-head">Contact Info</p>

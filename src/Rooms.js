@@ -2,7 +2,7 @@ import React from "react";
 import "./Rooms.css";
 import Card from "./Card";
 function Room(){
-    return <div className="room-main">
+    return <div id ="room" className="room-main">
         <div className="help2">
            <div className="line3"></div>
            <h1 className="next-room-head">Rooms</h1>

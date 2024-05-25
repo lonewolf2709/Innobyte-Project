@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css"
 function About(){
-    return <div className="next-section">
+    return <div className="next-section" id="about">
         <div className="help">
         <div className="line1"></div>
         <h1 className="next-head">The Story</h1>

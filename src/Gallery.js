@@ -29,7 +29,7 @@ function Gallery(){
         </div>
       ),
   };
-    return (<div className="g-outer">
+    return (<div id="gallery" className="g-outer">
     <div className="help">
         <div className="line8"></div>
         <p className="Gallery-head">Gallery</p>

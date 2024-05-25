@@ -2,7 +2,7 @@ import React from "react";
 import "./Services.css";
 function Services(){
     return(
-    <div className="outer-service">
+    <div id="services" className="outer-service">
     <img className="ser-img" src="https://wallpapercave.com/wp/wp9425831.jpg"></img>
     <div className="service-content">
         <div className="help3">
